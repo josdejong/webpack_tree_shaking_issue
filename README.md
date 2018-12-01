@@ -8,10 +8,10 @@ npm run build
 
 Open the bundle. It should not contain the strings "TEST1", "TEST2", "TEST4" but it does.
 
-# Code
-
 In the code, only the exported function `cube` is used, 
-the functions `fcatory` and `hello` are not used can be removed from the bundle.
+the functions `factory` and `hello` are not used can be removed from the bundle.
+
+# Code
 
 ```js
 // index.js
